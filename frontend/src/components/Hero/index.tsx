@@ -19,10 +19,10 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 hidden"
+                    href="https://www.youtube.com/watch?v=KIxKykJ9amo"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    🔥 Demo
                   </Link>
                   <Link
                     href="https://github.com/PiyushAnand-3135/psi"
@@ -36,7 +36,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100 hidden">
           <svg
             width="450"
             height="556"
@@ -174,7 +174,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100 hidden">
           <svg
             width="364"
             height="201"
@@ -199,7 +199,7 @@ const Hero = () => {
               stroke="url(#paint3_linear_25:218)"
             />
             <circle
-              opacity="0.8"
+              opacity="0.9"
               cx="214.505"
               cy="60.5054"
               r="49.7205"
